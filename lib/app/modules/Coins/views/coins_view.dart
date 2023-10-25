@@ -369,7 +369,7 @@ class _CoinsViewState extends State<CoinsView>
                                                                   top: 3,
                                                                   bottom: 2),
                                                           child: Text(
-                                                            "\$ ${coinsController.price[index]}",
+                                                            "${coinsController.price[index]} Bath",
                                                             style:
                                                                 const TextStyle(
                                                               fontSize: 20,

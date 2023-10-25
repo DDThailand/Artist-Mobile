@@ -1,9 +1,9 @@
 // ignore_for_file: file_names
 
 class AppImages {
-  static String appIcon = "Images/tindoAppIcon.png";
+  static String appIcon = "Images/AppIcon.png";
   static String bottomCenterIcon = "Images/centerIcon.png";
-  static String splashIcon = "Images/splashFandom.png";
+  static String splashIcon = "Images/AppIcon.png";
   static String splashBG = "Images/splshBG.png";
   static String splashText = "Images/splashText.png";
   static String placeHoder = "Images/IconsImage/placeHoder.png";

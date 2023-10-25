@@ -9,8 +9,7 @@ class Constant {
   static const baseUrl = "https://api.burapha.xyz/"; //https://abc.xyz.com/
   static const socketBaseUrl = "https://api.burapha.xyz"; // https://abd.xyz.com
   static const queryUrl = "api.burapha.xyz"; //abc.zyz.com
-
-
+  
   static const settingUrl = "setting";
   static const countryUrl = "flag";
   static const userLogin = "user/login";
