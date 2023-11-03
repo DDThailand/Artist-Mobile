@@ -77,13 +77,13 @@ class ShowPostController extends GetxController {
   void reportRedio(SingingCharacter? value, int reportindex) {
     character = value;
     if (reportindex == 0) {
-      report.value = "sexual Content";
+      report.value = "Sexual Content";
     } else if (reportindex == 1) {
       report.value = "Violent Content";
     } else if (reportindex == 2) {
-      report.value = "child abuse";
+      report.value = "Child abuse";
     } else if (reportindex == 3) {
-      report.value = "spam";
+      report.value = "Spam";
     } else if (reportindex == 4) {
       report.value = "Other";
     }

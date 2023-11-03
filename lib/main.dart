@@ -62,9 +62,17 @@ Future<void> backgroundNotification(RemoteMessage message) async {
 }
 
 Future<void> main() async {
+  print('-- main');
+
   WidgetsFlutterBinding.ensureInitialized();
+  print('-- WidgetsFlutterBinding.ensureInitialized');
+
   await Firebase.initializeApp();
+  print('-- main: Firebase.initializeApp');
+
   await GetStorage.init();
+  print('-- main: GetStorage.init');
+
   //// ==== Branch IO ====== \\\\
   FlutterBranchSdk.validateSDKIntegration();
   //// ====== Identity ======== \\\\\\\
